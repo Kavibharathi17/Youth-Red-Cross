@@ -1,0 +1,183 @@
+*{
+    font-family: "Poppins", serif;
+    font-style: normal;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    height: 96px;
+    margin-top: 10px;
+}
+.header h2 {
+     color: rgb(207, 23, 23);
+     font-size: 25px;
+}
+.college-logo img{
+    padding-left: 50px;
+}
+.navigation{
+    background-color: rgb(207, 23, 23);
+    margin: 10px 0px;
+    width: 100%;
+    display: flex;
+    list-style: none;
+}
+.navigation a{
+    width: 13.5%;
+    height: 30px;
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+    text-align: center;
+    padding:4px 0px;
+    font-size: 17px;
+}
+.navigation a:hover{
+    background-color: rgb(102, 89, 89);
+}
+section{
+    margin-top: 20px;
+}
+/*Home styling*/
+.home-layout{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin: 10px;
+}
+.home-layout .home-1 p{
+    margin-bottom: 8px;
+    display: block;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.home-layout .home-1 .function{
+    margin-top: 20px;
+}
+.home-layout .home-2 .slide-image{
+    width: 100%;
+    margin-bottom: 10px;
+    padding-right: 50px;
+}
+.home-layout .home-2 .slide-image .slide{
+    display: none;
+    width: 100%;
+}
+#home .home-2{
+    width: 44%;
+    display: block;
+    margin-top: 10px;
+}
+.home-layout .home-2 img{
+    width: 500px;
+    height: 350px;
+}
+.home-layout .home-3, .home-1{
+    width: 28%;
+    margin-top: 10px;
+}
+.home-layout .home-3 .principal-block{
+    
+    margin-bottom: 8px;
+    padding: 5px;
+}
+.home-layout .home-3 .report{
+    display: block;
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding: 7px 2px;  
+}
+section{
+    display: none;
+}
+section.active{
+    display: block;
+}
+/*About styling*/
+#about{
+    margin:20px;
+}  
+#about h5{
+    width: 100%;
+    text-align: end;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+#about .about-major{
+    margin-bottom: 10px;
+}
+#about .main-content{
+    padding: 15px;
+    display: block;
+    justify-content: center;
+    letter-spacing: 3px;
+}
+#about .yrc-head{
+    color:rgb(207, 23, 23) ;
+    padding-bottom: 5px;
+}
+#about .main-content p{
+    text-align: justify;
+    text-indent: 50px;
+}
+#about .main-content ol{
+    padding-left: 43px;
+    font-weight: 450;
+}
+#about .main-content li::marker{
+    color: rgb(207, 23, 23);
+    font-size:17px;
+}
+#about .moto{
+    text-align: center;
+    color: rgb(207, 23, 23);
+}
+#about .moto h3{
+    text-decoration: underline;
+    margin-bottom: 2px;
+}
+/*History styling*/
+#history{
+    margin: 20px;
+}
+#history .para1{text-indent: 50px}
+#history p{
+    text-align: justify;
+    padding-bottom: 10px;
+}
+#history .history-img{
+    float: left;
+    margin:10px 20px 10px 0px;
+    text-align: center;
+    padding: 4px;
+}
+#history img{
+    padding-bottom: 8px;
+    width: 100%;
+    height: 50%;
+}
+/*Footer and contact*/
+.cont-info{
+    margin:10px 0px;
+    background-color: rgb(168, 165, 165);
+    color: black;
+    text-align: center;
+    padding: 20px 10px;
+    width: 100%;
+}
+.cont-info h1{
+    font-size: 1.25em;
+    margin-bottom: .512em;
+}
+.footer{
+    text-align: center;
+}
+
+
+
+
